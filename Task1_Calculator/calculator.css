@@ -1,0 +1,105 @@
+body {
+    margin: 100px;
+}
+
+.main-container {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color:  rgb(225, 241, 247);
+    font-weight: bold;
+    border-radius: 12px ;
+    border: black solid 1px;
+    padding: 5px;
+    font-family: "Helvetica";
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.display-screen{
+    text-align: right;
+    height: 30px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin: 10px;
+    border: black solid 1px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.button {
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background-color: #585656;
+}
+
+.red-button {
+    background-color: rgb(247, 85, 85);
+}
+
+.special-symbols{
+    background-color: rgb(140, 217, 245);
+    color: rgb(5, 112, 151);
+}
+
+.special-symbols:hover{
+    background-color: rgb(172, 224, 243);
+}
+
+.red-button:hover{
+    background-color: rgb(250, 124, 124);
+}
+
+@media screen and (max-width: 576px){
+    .button {
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+        
+    }
+    .display-screen{
+        height: 20px;
+        font-size: 17px;
+    }
+    .main-container {
+        max-width: 200px;
+    } 
+}
+
+@media screen and (max-width: 768px){
+    .button {
+        font-size: 13px;
+        width: 40px;
+        height: 40px;
+        
+    }
+    .display-screen{
+        height: 20px;
+        font-size: 17px;
+    }
+    .main-container {
+        max-width: 250px;
+    } 
+}

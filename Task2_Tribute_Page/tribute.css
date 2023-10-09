@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Helvetica';
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.heading-container{
+    background-color: black;
+    padding: 10px;
+}
+
+.main-heading{
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.sub-heading{
+    color: white;
+    font-size: 19px;
+}
+
+.main-image-container{
+    background-color: #ffffff;
+    padding: 40px;
+
+}
+
+.main-image{
+    max-width: 100%;
+}
+
+.quote-container{
+    padding: 30px 20px;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 48px;
+    margin: 48px;
+}
+
+.tribute-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contentbox-1{
+    padding: 50px 40px 50px 50px;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.name-date-container{
+    margin: 0px;
+}
+
+.date{
+    font-size: 15px;
+    color: gray;
+}
+
+.paragraph-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.para-heading{
+    text-decoration: underline;
+}
+
+.contentbox-2{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.sub-image{
+    max-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.information{
+    text-align: left;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .tribute-info-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contentbox-1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contentbox-2{
+        width: 100%;
+    }
+    .quote{
+        font-size: 18px;
+        
+    }
+    .quote-container{
+        padding: 5px 5px;
+    }
+}
